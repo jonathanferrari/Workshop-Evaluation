@@ -22,6 +22,8 @@ def readDict():
     with open('plots.txt', 'r') as f:
         s = f.read().replace("nan", "None")
         return eval(s)
+
+def
     
 def download_data(data_url, 
                   file):
